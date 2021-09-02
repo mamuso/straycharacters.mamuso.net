@@ -1,0 +1,15 @@
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section div {
+  flex-grow: 1;
+  height: 332px;
+}
+.section img {
+  height: 332px;
+  object-fit: cover;
+  max-width: 100%;
+  min-width: 100%;
+  vertical-align: bottom;
+}
