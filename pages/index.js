@@ -49,89 +49,48 @@ export default function Home() {
   return (
     <>
       <section className={styles.section}>
-        <Image src={img41} className={styles.sectionImg} />
-
-        <Image src={img40} className={styles.sectionImg} />
-
-        <Image src={img39} className={styles.sectionImg} />
-
-        <Image src={img38} className={styles.sectionImg} />
-
-        <Image src={img37} className={styles.sectionImg} />
-
-        <Image src={img36} className={styles.sectionImg} />
-
-        <Image src={img35} className={styles.sectionImg} />
-
-        <Image src={img34} className={styles.sectionImg} />
-
-        <Image src={img33} className={styles.sectionImg} />
-
-        <Image src={img32} className={styles.sectionImg} />
-
-        <Image src={img31} className={styles.sectionImg} />
-
-        <Image src={img30} className={styles.sectionImg} />
-
-        <Image src={img29} className={styles.sectionImg} />
-
-        <Image src={img28} className={styles.sectionImg} />
-
-        <Image src={img27} className={styles.sectionImg} />
-
-        <Image src={img26} className={styles.sectionImg} />
-
-        <Image src={img25} className={styles.sectionImg} />
-
-        <Image src={img24} className={styles.sectionImg} />
-
-        <Image src={img23} className={styles.sectionImg} />
-
-        <Image src={img22} className={styles.sectionImg} />
-
-        <Image src={img21} className={styles.sectionImg} />
-
-        <Image src={img20} className={styles.sectionImg} />
-
-        <Image src={img19} className={styles.sectionImg} />
-
-        <Image src={img18} className={styles.sectionImg} />
-
-        <Image src={img17} className={styles.sectionImg} />
-
-        <Image src={img16} className={styles.sectionImg} />
-
-        <Image src={img15} className={styles.sectionImg} />
-
-        <Image src={img14} className={styles.sectionImg} />
-
-        <Image src={img13} className={styles.sectionImg} />
-
-        <Image src={img12} className={styles.sectionImg} />
-
-        <Image src={img11} className={styles.sectionImg} />
-
-        <Image src={img10} className={styles.sectionImg} />
-
-        <Image src={img9} className={styles.sectionImg} />
-
-        <Image src={img8} className={styles.sectionImg} />
-
-        <Image src={img7} className={styles.sectionImg} />
-
-        <Image src={img6} className={styles.sectionImg} />
-
-        <Image src={img5} className={styles.sectionImg} />
-
-        <Image src={img4} className={styles.sectionImg} />
-
-        <Image src={img3} className={styles.sectionImg} />
-
-        <Image src={img2} className={styles.sectionImg} />
-
-        <Image src={img1} className={styles.sectionImg} />
-
-        <Image src={img0} className={styles.sectionImg} />
+        <Image src={img41} className={styles.sectionImg} alt="" />
+        <Image src={img40} className={styles.sectionImg} alt="" />
+        <Image src={img39} className={styles.sectionImg} alt="" />
+        <Image src={img38} className={styles.sectionImg} alt="" />
+        <Image src={img37} className={styles.sectionImg} alt="" />
+        <Image src={img36} className={styles.sectionImg} alt="" />
+        <Image src={img35} className={styles.sectionImg} alt="" />
+        <Image src={img34} className={styles.sectionImg} alt="" />
+        <Image src={img33} className={styles.sectionImg} alt="" />
+        <Image src={img32} className={styles.sectionImg} alt="" />
+        <Image src={img31} className={styles.sectionImg} alt="" />
+        <Image src={img30} className={styles.sectionImg} alt="" />
+        <Image src={img29} className={styles.sectionImg} alt="" />
+        <Image src={img28} className={styles.sectionImg} alt="" />
+        <Image src={img27} className={styles.sectionImg} alt="" />
+        <Image src={img26} className={styles.sectionImg} alt="" />
+        <Image src={img25} className={styles.sectionImg} alt="" />
+        <Image src={img24} className={styles.sectionImg} alt="" />
+        <Image src={img23} className={styles.sectionImg} alt="" />
+        <Image src={img22} className={styles.sectionImg} alt="" />
+        <Image src={img21} className={styles.sectionImg} alt="" />
+        <Image src={img20} className={styles.sectionImg} alt="" />
+        <Image src={img19} className={styles.sectionImg} alt="" />
+        <Image src={img18} className={styles.sectionImg} alt="" />
+        <Image src={img17} className={styles.sectionImg} alt="" />
+        <Image src={img16} className={styles.sectionImg} alt="" />
+        <Image src={img15} className={styles.sectionImg} alt="" />
+        <Image src={img14} className={styles.sectionImg} alt="" />
+        <Image src={img13} className={styles.sectionImg} alt="" />
+        <Image src={img12} className={styles.sectionImg} alt="" />
+        <Image src={img11} className={styles.sectionImg} alt="" />
+        <Image src={img10} className={styles.sectionImg} alt="" />
+        <Image src={img9} className={styles.sectionImg} alt="" />
+        <Image src={img8} className={styles.sectionImg} alt="" />
+        <Image src={img7} className={styles.sectionImg} alt="" />
+        <Image src={img6} className={styles.sectionImg} alt="" />
+        <Image src={img5} className={styles.sectionImg} alt="" />
+        <Image src={img4} className={styles.sectionImg} alt="" />
+        <Image src={img3} className={styles.sectionImg} alt="" />
+        <Image src={img2} className={styles.sectionImg} alt="" />
+        <Image src={img1} className={styles.sectionImg} alt="" />
+        <Image src={img0} className={styles.sectionImg} alt="" />
       </section>
     </>
   )
