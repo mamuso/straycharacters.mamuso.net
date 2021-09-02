@@ -48,6 +48,7 @@ import img0 from '../public/pics/0.jpg'
 export default function Home() {
   return (
     <>
+      <script src="https://koala.mamuso.net/script.js" data-site="GKBFIQTA" defer></script>
       <section className={styles.section}>
         <Image src={img41} className={styles.sectionImg} alt="" />
         <Image src={img40} className={styles.sectionImg} alt="" />
