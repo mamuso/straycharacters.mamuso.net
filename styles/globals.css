@@ -21,3 +21,12 @@ a {
   opacity: 0.45;
   mix-blend-mode: hard-light;
 }
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    margin: 24px;
+  }
+  #logo img {
+    width: 48px;
+  }
+}
