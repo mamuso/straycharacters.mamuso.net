@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+import img44 from '../public/pics/44.jpg'
+import img43 from '../public/pics/43.jpg'
 import img42 from '../public/pics/42.jpg'
 import img41 from '../public/pics/41.jpg'
 import img40 from '../public/pics/40.jpg'
@@ -51,6 +53,8 @@ export default function Home() {
     <>
       <script src="https://koala.mamuso.net/script.js" data-site="GKBFIQTA" defer></script>
       <section className={styles.section}>
+        <Image src={img44} className={styles.sectionImg} alt="" />
+        <Image src={img43} className={styles.sectionImg} alt="" />
         <Image src={img42} className={styles.sectionImg} alt="" />
         <Image src={img41} className={styles.sectionImg} alt="" />
         <Image src={img40} className={styles.sectionImg} alt="" />
