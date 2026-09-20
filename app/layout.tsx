@@ -41,9 +41,6 @@ export default function RootLayout({
             <a href="https://mamuso.dev" {...stylex.props(s.link)}>
               Collected by Mamuso
             </a>
-            <a href="#back-to-reality" {...stylex.props(s.link)}>
-              Back to top <span aria-hidden="true">↑</span>
-            </a>
           </div>
         </footer>
         <Script

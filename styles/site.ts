@@ -213,6 +213,7 @@ export const s = stylex.create({
     outlineOffset: 2,
     opacity: {
       default: 0,
+      "@media (max-width: 600px), (hover: none)": 1,
       [stylex.when.ancestor(":hover")]: 1,
       [stylex.when.ancestor(":focus-within")]: 1,
     },
@@ -225,6 +226,7 @@ export const s = stylex.create({
     width: "calc(100% - 24px)",
     transform: {
       default: "translateX(0)",
+      "@media (max-width: 600px), (hover: none)": "translateX(24px)",
       [stylex.when.ancestor(":hover")]: "translateX(24px)",
       [stylex.when.ancestor(":focus-within")]: "translateX(24px)",
     },
