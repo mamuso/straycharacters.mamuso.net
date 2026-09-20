@@ -1,5 +1,10 @@
 module.exports = {
-  reactStrictMode: true,
-  cleanUrls: true,
+  output: "export",
   trailingSlash: true,
-}
+  images: {
+    loader: "custom",
+    loaderFile: "./lib/image-loader.ts",
+    deviceSizes: [480, 800, 1200, 1600],
+    imageSizes: [],
+  },
+};

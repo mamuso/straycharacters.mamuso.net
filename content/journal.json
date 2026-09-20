@@ -1,0 +1,1838 @@
+[
+  {
+    "slug": "specimen-237",
+    "specimenNumber": 237,
+    "image": "/pics/specimen-237.jpg",
+    "date": "2026-09-17",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-236",
+    "specimenNumber": 236,
+    "image": "/pics/specimen-236.jpg",
+    "date": "2026-09-14",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-235",
+    "specimenNumber": 235,
+    "image": "/pics/specimen-235.jpg",
+    "date": "2026-09-14",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-234",
+    "specimenNumber": 234,
+    "image": "/pics/specimen-234.jpg",
+    "date": "2026-09-13",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-233",
+    "specimenNumber": 233,
+    "image": "/pics/specimen-233.jpg",
+    "date": "2026-09-13",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-232",
+    "specimenNumber": 232,
+    "image": "/pics/specimen-232.jpg",
+    "date": "2026-09-13",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-231",
+    "specimenNumber": 231,
+    "image": "/pics/specimen-231.jpg",
+    "date": "2026-07-31",
+    "location": "Shibuya",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-230",
+    "specimenNumber": 230,
+    "image": "/pics/specimen-230.jpg",
+    "date": "2026-07-29",
+    "location": "Nikkō",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-229",
+    "specimenNumber": 229,
+    "image": "/pics/specimen-229.jpg",
+    "date": "2026-07-28",
+    "location": "Taito",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-228",
+    "specimenNumber": 228,
+    "image": "/pics/specimen-228.jpg",
+    "date": "2026-07-24",
+    "location": "Nakano",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-227",
+    "specimenNumber": 227,
+    "image": "/pics/specimen-227.jpg",
+    "date": "2026-06-19",
+    "location": "City of London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-226",
+    "specimenNumber": 226,
+    "image": "/pics/specimen-226.jpg",
+    "date": "2026-06-19",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-225",
+    "specimenNumber": 225,
+    "image": "/pics/specimen-225.jpg",
+    "date": "2026-06-17",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-224",
+    "specimenNumber": 224,
+    "image": "/pics/specimen-224.jpg",
+    "date": "2026-06-15",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-223",
+    "specimenNumber": 223,
+    "image": "/pics/specimen-223.jpg",
+    "date": "2026-06-15",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-222",
+    "specimenNumber": 222,
+    "image": "/pics/specimen-222.jpg",
+    "date": "2026-06-14",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-221",
+    "specimenNumber": 221,
+    "image": "/pics/specimen-221.jpg",
+    "date": "2026-04-11",
+    "location": "Copenhagen",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-220",
+    "specimenNumber": 220,
+    "image": "/pics/specimen-220.jpg",
+    "date": "2026-04-11",
+    "location": "Tårnby Municipality",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-219",
+    "specimenNumber": 219,
+    "image": "/pics/specimen-219.jpg",
+    "date": "2026-04-09",
+    "location": "Alicante",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-218",
+    "specimenNumber": 218,
+    "image": "/pics/specimen-218.jpg",
+    "date": "2026-03-07",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-217",
+    "specimenNumber": 217,
+    "image": "/pics/specimen-217.jpg",
+    "date": "2026-03-06",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-216",
+    "specimenNumber": 216,
+    "image": "/pics/specimen-216.jpg",
+    "date": "2026-03-06",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-215",
+    "specimenNumber": 215,
+    "image": "/pics/specimen-215.jpg",
+    "date": "2026-03-05",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-214",
+    "specimenNumber": 214,
+    "image": "/pics/specimen-214.jpg",
+    "date": "2026-03-05",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-213",
+    "specimenNumber": 213,
+    "image": "/pics/specimen-213.jpg",
+    "date": "2025-12-31",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-212",
+    "specimenNumber": 212,
+    "image": "/pics/specimen-212.jpg",
+    "date": "2025-12-31",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-211",
+    "specimenNumber": 211,
+    "image": "/pics/specimen-211.jpg",
+    "date": "2025-12-31",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-210",
+    "specimenNumber": 210,
+    "image": "/pics/specimen-210.jpg",
+    "date": "2025-12-31",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-209",
+    "specimenNumber": 209,
+    "image": "/pics/specimen-209.jpg",
+    "date": "2025-12-28",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-208",
+    "specimenNumber": 208,
+    "image": "/pics/specimen-208.jpg",
+    "date": "2025-12-26",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-207",
+    "specimenNumber": 207,
+    "image": "/pics/specimen-207.jpg",
+    "date": "2025-09-10",
+    "location": "Berlin",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-206",
+    "specimenNumber": 206,
+    "image": "/pics/specimen-206.jpg",
+    "date": "2025-09-10",
+    "location": "Berlin",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-205",
+    "specimenNumber": 205,
+    "image": "/pics/specimen-205.jpg",
+    "date": "2025-09-09",
+    "location": "Berlin",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-204",
+    "specimenNumber": 204,
+    "image": "/pics/specimen-204.jpg",
+    "date": "2025-08-18",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-203",
+    "specimenNumber": 203,
+    "image": "/pics/specimen-203.jpg",
+    "date": "2025-07-24",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-202",
+    "specimenNumber": 202,
+    "image": "/pics/specimen-202.jpg",
+    "date": "2025-07-24",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-201",
+    "specimenNumber": 201,
+    "image": "/pics/specimen-201.jpg",
+    "date": "2025-07-24",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-200",
+    "specimenNumber": 200,
+    "image": "/pics/specimen-200.jpg",
+    "date": "2025-07-24",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-199",
+    "specimenNumber": 199,
+    "image": "/pics/specimen-199.jpg",
+    "date": "2025-07-20",
+    "location": "Granada",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-198",
+    "specimenNumber": 198,
+    "image": "/pics/specimen-198.jpg",
+    "date": "2025-07-20",
+    "location": "Granada",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-197",
+    "specimenNumber": 197,
+    "image": "/pics/specimen-197.jpg",
+    "date": "2025-07-18",
+    "location": "Granada",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-196",
+    "specimenNumber": 196,
+    "image": "/pics/specimen-196.jpg",
+    "date": "2025-07-16",
+    "location": "Alicante",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-195",
+    "specimenNumber": 195,
+    "image": "/pics/specimen-195.jpg",
+    "date": "2025-07-12",
+    "location": "Alicante",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-194",
+    "specimenNumber": 194,
+    "image": "/pics/specimen-194.jpg",
+    "date": "2025-07-11",
+    "location": "Alcoi / Alcoy",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-193",
+    "specimenNumber": 193,
+    "image": "/pics/specimen-193.jpg",
+    "date": "2025-07-11",
+    "location": "Alcoi / Alcoy",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-192",
+    "specimenNumber": 192,
+    "image": "/pics/specimen-192.jpg",
+    "date": "2025-07-06",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-191",
+    "specimenNumber": 191,
+    "image": "/pics/specimen-191.jpg",
+    "date": "2025-07-06",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-190",
+    "specimenNumber": 190,
+    "image": "/pics/specimen-190.jpg",
+    "date": "2025-07-05",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-189",
+    "specimenNumber": 189,
+    "image": "/pics/specimen-189.jpg",
+    "date": "2025-06-28",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-188",
+    "specimenNumber": 188,
+    "image": "/pics/specimen-188.jpg",
+    "date": "2025-06-27",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-187",
+    "specimenNumber": 187,
+    "image": "/pics/specimen-187.jpg",
+    "date": "2025-06-27",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-186",
+    "specimenNumber": 186,
+    "image": "/pics/specimen-186.jpg",
+    "date": "2025-06-25",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-185",
+    "specimenNumber": 185,
+    "image": "/pics/specimen-185.jpg",
+    "date": "2025-06-22",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-184",
+    "specimenNumber": 184,
+    "image": "/pics/specimen-184.jpg",
+    "date": "2025-06-21",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-183",
+    "specimenNumber": 183,
+    "image": "/pics/specimen-183.jpg",
+    "date": "2025-06-15",
+    "location": "Bishop",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-182",
+    "specimenNumber": 182,
+    "image": "/pics/specimen-182.jpg",
+    "date": "2025-05-31",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-181",
+    "specimenNumber": 181,
+    "image": "/pics/specimen-181.jpg",
+    "date": "2025-02-22",
+    "location": "Mountain View",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-180",
+    "specimenNumber": 180,
+    "image": "/pics/specimen-180.jpg",
+    "date": "2025-01-02",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-179",
+    "specimenNumber": 179,
+    "image": "/pics/specimen-179.jpg",
+    "date": "2025-01-02",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-178",
+    "specimenNumber": 178,
+    "image": "/pics/specimen-178.jpg",
+    "date": "2025-01-01",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-177",
+    "specimenNumber": 177,
+    "image": "/pics/specimen-177.jpg",
+    "date": "2024-12-23",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-176",
+    "specimenNumber": 176,
+    "image": "/pics/specimen-176.jpg",
+    "date": "2024-11-12",
+    "location": "Barcelona",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-175",
+    "specimenNumber": 175,
+    "image": "/pics/specimen-175.jpg",
+    "date": "2024-11-11",
+    "location": "Barcelona",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-174",
+    "specimenNumber": 174,
+    "image": "/pics/specimen-174.jpg",
+    "date": "2024-11-10",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-173",
+    "specimenNumber": 173,
+    "image": "/pics/specimen-173.jpg",
+    "date": "2024-11-10",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-172",
+    "specimenNumber": 172,
+    "image": "/pics/specimen-172.jpg",
+    "date": "2024-11-10",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-171",
+    "specimenNumber": 171,
+    "image": "/pics/specimen-171.jpg",
+    "date": "2024-09-24",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-170",
+    "specimenNumber": 170,
+    "image": "/pics/specimen-170.jpg",
+    "date": "2024-07-14",
+    "location": "Sumida",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-169",
+    "specimenNumber": 169,
+    "image": "/pics/specimen-169.jpg",
+    "date": "2024-07-10",
+    "location": "Yao",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-168",
+    "specimenNumber": 168,
+    "image": "/pics/specimen-168.jpg",
+    "date": "2024-07-09",
+    "location": "Kyoto",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-167",
+    "specimenNumber": 167,
+    "image": "/pics/specimen-167.jpg",
+    "date": "2024-07-07",
+    "location": "Takayama",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-166",
+    "specimenNumber": 166,
+    "image": "/pics/specimen-166.jpg",
+    "date": "2024-03-31",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-165",
+    "specimenNumber": 165,
+    "image": "/pics/specimen-165.jpg",
+    "date": "2024-03-31",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-164",
+    "specimenNumber": 164,
+    "image": "/pics/specimen-164.jpg",
+    "date": "2024-03-31",
+    "location": "Culver City",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-163",
+    "specimenNumber": 163,
+    "image": "/pics/specimen-163.jpg",
+    "date": "2024-03-30",
+    "location": "San Luis Obispo",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-162",
+    "specimenNumber": 162,
+    "image": "/pics/specimen-162.jpg",
+    "date": "2024-03-15",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-161",
+    "specimenNumber": 161,
+    "image": "/pics/specimen-161.jpg",
+    "date": "2024-02-24",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-160",
+    "specimenNumber": 160,
+    "image": "/pics/specimen-160.jpg",
+    "date": "2024-02-24",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-159",
+    "specimenNumber": 159,
+    "image": "/pics/specimen-159.jpg",
+    "date": "2024-02-24",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-158",
+    "specimenNumber": 158,
+    "image": "/pics/specimen-158.jpg",
+    "date": "2024-02-18",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-157",
+    "specimenNumber": 157,
+    "image": "/pics/specimen-157.jpg",
+    "date": "2024-02-18",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-156",
+    "specimenNumber": 156,
+    "image": "/pics/specimen-156.jpg",
+    "date": "2024-01-14",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-155",
+    "specimenNumber": 155,
+    "image": "/pics/specimen-155.jpg",
+    "date": "2024-01-05",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-154",
+    "specimenNumber": 154,
+    "image": "/pics/specimen-154.jpg",
+    "date": "2024-01-05",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-153",
+    "specimenNumber": 153,
+    "image": "/pics/specimen-153.jpg",
+    "date": "2023-12-31",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-152",
+    "specimenNumber": 152,
+    "image": "/pics/specimen-152.jpg",
+    "date": "2023-12-30",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-151",
+    "specimenNumber": 151,
+    "image": "/pics/specimen-151.jpg",
+    "date": "2023-12-30",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-150",
+    "specimenNumber": 150,
+    "image": "/pics/specimen-150.jpg",
+    "date": "2023-12-29",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-149",
+    "specimenNumber": 149,
+    "image": "/pics/specimen-149.jpg",
+    "date": "2023-12-28",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-148",
+    "specimenNumber": 148,
+    "image": "/pics/specimen-148.jpg",
+    "date": "2023-12-28",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-147",
+    "specimenNumber": 147,
+    "image": "/pics/specimen-147.jpg",
+    "date": "2023-12-28",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-146",
+    "specimenNumber": 146,
+    "image": "/pics/specimen-146.jpg",
+    "date": "2023-12-28",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-145",
+    "specimenNumber": 145,
+    "image": "/pics/specimen-145.jpg",
+    "date": "2023-12-27",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-144",
+    "specimenNumber": 144,
+    "image": "/pics/specimen-144.jpg",
+    "date": "2023-12-27",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-143",
+    "specimenNumber": 143,
+    "image": "/pics/specimen-143.jpg",
+    "date": "2023-12-26",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-142",
+    "specimenNumber": 142,
+    "image": "/pics/specimen-142.jpg",
+    "date": "2023-12-25",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-141",
+    "specimenNumber": 141,
+    "image": "/pics/specimen-141.jpg",
+    "date": "2023-12-10",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-140",
+    "specimenNumber": 140,
+    "image": "/pics/specimen-140.jpg",
+    "date": "2023-12-10",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-139",
+    "specimenNumber": 139,
+    "image": "/pics/specimen-139.jpg",
+    "date": "2023-11-11",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-138",
+    "specimenNumber": 138,
+    "image": "/pics/specimen-138.jpg",
+    "date": "2023-09-24",
+    "location": "Napa",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-137",
+    "specimenNumber": 137,
+    "image": "/pics/specimen-137.jpg",
+    "date": "2023-09-22",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-136",
+    "specimenNumber": 136,
+    "image": "/pics/specimen-136.jpg",
+    "date": "2023-09-21",
+    "location": "Sausalito",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-135",
+    "specimenNumber": 135,
+    "image": "/pics/specimen-135.jpg",
+    "date": "2023-09-19",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-134",
+    "specimenNumber": 134,
+    "image": "/pics/specimen-134.jpg",
+    "date": "2023-08-28",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-133",
+    "specimenNumber": 133,
+    "image": "/pics/specimen-133.jpg",
+    "date": "2023-07-29",
+    "location": "Sebastopol",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-132",
+    "specimenNumber": 132,
+    "image": "/pics/specimen-132.jpg",
+    "date": "2023-07-29",
+    "location": "Sebastopol",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-131",
+    "specimenNumber": 131,
+    "image": "/pics/specimen-131.jpg",
+    "date": "2023-07-27",
+    "location": "Healdsburg",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-130",
+    "specimenNumber": 130,
+    "image": "/pics/specimen-130.jpg",
+    "date": "2023-06-25",
+    "location": "Berkeley",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-129",
+    "specimenNumber": 129,
+    "image": "/pics/specimen-129.jpg",
+    "date": "2023-06-25",
+    "location": "Berkeley",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-128",
+    "specimenNumber": 128,
+    "image": "/pics/specimen-128.jpg",
+    "date": "2023-06-21",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-127",
+    "specimenNumber": 127,
+    "image": "/pics/specimen-127.jpg",
+    "date": "2023-06-10",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-126",
+    "specimenNumber": 126,
+    "image": "/pics/specimen-126.jpg",
+    "date": "2023-05-29",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-125",
+    "specimenNumber": 125,
+    "image": "/pics/specimen-125.jpg",
+    "date": "2023-05-29",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-124",
+    "specimenNumber": 124,
+    "image": "/pics/specimen-124.jpg",
+    "date": "2023-05-29",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-123",
+    "specimenNumber": 123,
+    "image": "/pics/specimen-123.jpg",
+    "date": "2023-05-28",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-122",
+    "specimenNumber": 122,
+    "image": "/pics/specimen-122.jpg",
+    "date": "2023-05-28",
+    "location": "Los Angeles",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-121",
+    "specimenNumber": 121,
+    "image": "/pics/specimen-121.jpg",
+    "date": "2023-05-28",
+    "location": "Culver City",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-120",
+    "specimenNumber": 120,
+    "image": "/pics/specimen-120.jpg",
+    "date": "2023-05-27"
+  },
+  {
+    "slug": "specimen-119",
+    "specimenNumber": 119,
+    "image": "/pics/specimen-119.jpg",
+    "date": "2023-05-27",
+    "location": "Culver City",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-118",
+    "specimenNumber": 118,
+    "image": "/pics/specimen-118.jpg",
+    "date": "2023-05-14"
+  },
+  {
+    "slug": "specimen-117",
+    "specimenNumber": 117,
+    "image": "/pics/specimen-117.jpg",
+    "date": "2023-05-14",
+    "location": "Palo Alto",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-116",
+    "specimenNumber": 116,
+    "image": "/pics/specimen-116.jpg",
+    "date": "2023-05-14",
+    "location": "Palo Alto",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-115",
+    "specimenNumber": 115,
+    "image": "/pics/specimen-115.jpg",
+    "date": "2023-05-13",
+    "location": "Napa",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-114",
+    "specimenNumber": 114,
+    "image": "/pics/specimen-114.jpg",
+    "date": "2023-05-07",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-113",
+    "specimenNumber": 113,
+    "image": "/pics/specimen-113.jpg",
+    "date": "2023-05-07",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-112",
+    "specimenNumber": 112,
+    "image": "/pics/specimen-112.jpg",
+    "date": "2023-05-07",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-111",
+    "specimenNumber": 111,
+    "image": "/pics/specimen-111.jpg",
+    "date": "2023-04-07",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-110",
+    "specimenNumber": 110,
+    "image": "/pics/specimen-110.jpg",
+    "date": "2023-04-05",
+    "location": "Seattle",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-109",
+    "specimenNumber": 109,
+    "image": "/pics/specimen-109.jpg",
+    "date": "2023-04-05",
+    "location": "Seattle",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-108",
+    "specimenNumber": 108,
+    "image": "/pics/specimen-108.jpg",
+    "date": "2023-04-05",
+    "location": "Seattle",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-107",
+    "specimenNumber": 107,
+    "image": "/pics/specimen-107.jpg",
+    "date": "2023-04-04",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-106",
+    "specimenNumber": 106,
+    "image": "/pics/specimen-106.jpg",
+    "date": "2023-04-04",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-105",
+    "specimenNumber": 105,
+    "image": "/pics/specimen-105.jpg",
+    "date": "2023-04-04",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-104",
+    "specimenNumber": 104,
+    "image": "/pics/specimen-104.jpg",
+    "date": "2023-04-03",
+    "location": "Astoria",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-103",
+    "specimenNumber": 103,
+    "image": "/pics/specimen-103.jpg",
+    "date": "2023-04-02",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-102",
+    "specimenNumber": 102,
+    "image": "/pics/specimen-102.jpg",
+    "date": "2023-04-02",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-101",
+    "specimenNumber": 101,
+    "image": "/pics/specimen-101.jpg",
+    "date": "2023-04-02"
+  },
+  {
+    "slug": "specimen-100",
+    "specimenNumber": 100,
+    "image": "/pics/specimen-100.jpg",
+    "date": "2023-02-20",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-099",
+    "specimenNumber": 99,
+    "image": "/pics/specimen-099.jpg",
+    "date": "2023-02-20",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-098",
+    "specimenNumber": 98,
+    "image": "/pics/specimen-098.jpg",
+    "date": "2023-02-20",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-097",
+    "specimenNumber": 97,
+    "image": "/pics/specimen-097.jpg",
+    "date": "2023-02-19",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-096",
+    "specimenNumber": 96,
+    "image": "/pics/specimen-096.jpg",
+    "date": "2023-01-21",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-095",
+    "specimenNumber": 95,
+    "image": "/pics/specimen-095.jpg",
+    "date": "2023-01-21",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-094",
+    "specimenNumber": 94,
+    "image": "/pics/specimen-094.jpg",
+    "date": "2022-12-23",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-093",
+    "specimenNumber": 93,
+    "image": "/pics/specimen-093.jpg",
+    "date": "2022-11-25",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-092",
+    "specimenNumber": 92,
+    "image": "/pics/specimen-092.jpg",
+    "date": "2022-11-24",
+    "location": "New York",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-091",
+    "specimenNumber": 91,
+    "image": "/pics/specimen-091.jpg",
+    "date": "2022-08-27"
+  },
+  {
+    "slug": "specimen-090",
+    "specimenNumber": 90,
+    "image": "/pics/specimen-090.jpg",
+    "date": "2022-08-20",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-089",
+    "specimenNumber": 89,
+    "image": "/pics/specimen-089.jpg",
+    "date": "2022-07-08",
+    "location": "Granada",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-088",
+    "specimenNumber": 88,
+    "image": "/pics/specimen-088.jpg",
+    "date": "2022-07-02",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-087",
+    "specimenNumber": 87,
+    "image": "/pics/specimen-087.jpg",
+    "date": "2022-06-16",
+    "location": "Nashville",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-086",
+    "specimenNumber": 86,
+    "image": "/pics/specimen-086.jpg",
+    "date": "2022-06-16",
+    "location": "Nashville",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-085",
+    "specimenNumber": 85,
+    "image": "/pics/specimen-085.jpg",
+    "date": "2022-04-17",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-084",
+    "specimenNumber": 84,
+    "image": "/pics/specimen-084.jpg",
+    "date": "2022-03-11",
+    "location": "Nashville",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-083",
+    "specimenNumber": 83,
+    "image": "/pics/specimen-083.jpg",
+    "date": "2022-02-20"
+  },
+  {
+    "slug": "specimen-082",
+    "specimenNumber": 82,
+    "image": "/pics/specimen-082.jpg",
+    "date": "2022-02-20",
+    "location": "Santa Barbara",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-081",
+    "specimenNumber": 81,
+    "image": "/pics/specimen-081.jpg",
+    "date": "2022-01-21",
+    "location": "Miami",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-080",
+    "specimenNumber": 80,
+    "image": "/pics/specimen-080.jpg",
+    "date": "2022-01-20",
+    "location": "Miami",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-079",
+    "specimenNumber": 79,
+    "image": "/pics/specimen-079.jpg",
+    "date": "2022-01-20",
+    "location": "Miami",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-078",
+    "specimenNumber": 78,
+    "image": "/pics/specimen-078.jpg",
+    "date": "2022-01-08",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-077",
+    "specimenNumber": 77,
+    "image": "/pics/specimen-077.jpg",
+    "alt": "A faded No Parking sign",
+    "date": "2022-01-03",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-076",
+    "specimenNumber": 76,
+    "image": "/pics/specimen-076.jpg",
+    "alt": "An ornate theater marquee photographed from below",
+    "date": "2022-01-03",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-075",
+    "specimenNumber": 75,
+    "image": "/pics/specimen-075.jpg",
+    "date": "2021-09-11"
+  },
+  {
+    "slug": "specimen-074",
+    "specimenNumber": 74,
+    "image": "/pics/specimen-074.jpg",
+    "date": "2021-03-21",
+    "location": "Palo Alto",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-073",
+    "specimenNumber": 73,
+    "image": "/pics/specimen-073.jpg",
+    "date": "2021-01-16",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-072",
+    "specimenNumber": 72,
+    "image": "/pics/specimen-072.jpg",
+    "date": "2019-06-04"
+  },
+  {
+    "slug": "specimen-071",
+    "specimenNumber": 71,
+    "image": "/pics/specimen-071.jpg",
+    "date": "2019-05-03",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-070",
+    "specimenNumber": 70,
+    "image": "/pics/specimen-070.jpg",
+    "date": "2018-07-14"
+  },
+  {
+    "slug": "specimen-069",
+    "specimenNumber": 69,
+    "image": "/pics/specimen-069.jpg",
+    "date": "2018-07-14"
+  },
+  {
+    "slug": "specimen-068",
+    "specimenNumber": 68,
+    "image": "/pics/specimen-068.jpg",
+    "date": "2018-07-14",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-067",
+    "specimenNumber": 67,
+    "image": "/pics/specimen-067.jpg",
+    "date": "2018-07-14"
+  },
+  {
+    "slug": "specimen-066",
+    "specimenNumber": 66,
+    "image": "/pics/specimen-066.jpg",
+    "date": "2018-07-14",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-065",
+    "specimenNumber": 65,
+    "image": "/pics/specimen-065.jpg",
+    "date": "2018-07-08"
+  },
+  {
+    "slug": "specimen-064",
+    "specimenNumber": 64,
+    "image": "/pics/specimen-064.jpg",
+    "date": "2018-05-29",
+    "location": "Raleigh",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-063",
+    "specimenNumber": 63,
+    "image": "/pics/specimen-063.jpg",
+    "date": "2017-12-30",
+    "location": "Portland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-062",
+    "specimenNumber": 62,
+    "image": "/pics/specimen-062.jpg",
+    "alt": "The number 1990 painted on a wall",
+    "date": "2016-06-23",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-061",
+    "specimenNumber": 61,
+    "image": "/pics/specimen-061.jpg",
+    "alt": "A fan of colorful signs and lettering",
+    "date": "2016-03-30",
+    "location": "San Diego",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-060",
+    "specimenNumber": 60,
+    "image": "/pics/specimen-060.jpg",
+    "date": "2015-04-21",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-059",
+    "specimenNumber": 59,
+    "image": "/pics/specimen-059.jpg",
+    "alt": "A painted warning sign on a brick wall",
+    "date": "2015-01-28",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-058",
+    "specimenNumber": 58,
+    "image": "/pics/specimen-058.jpg",
+    "alt": "Rows of lettering across a storefront",
+    "date": "2015-01-02",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-057",
+    "specimenNumber": 57,
+    "image": "/pics/specimen-057.jpg",
+    "date": "2014-07-29",
+    "location": "City of London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-056",
+    "specimenNumber": 56,
+    "image": "/pics/specimen-056.jpg",
+    "alt": "White script lettering on a dark window",
+    "date": "2014-06-21",
+    "location": "City of Westminster",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-055",
+    "specimenNumber": 55,
+    "image": "/pics/specimen-055.jpg",
+    "alt": "A yellow poster reading Save Bees",
+    "date": "2014-05-22",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-054",
+    "specimenNumber": 54,
+    "image": "/pics/specimen-054.jpg",
+    "alt": "White lettering reading New Guest",
+    "date": "2014-04-28",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-053",
+    "specimenNumber": 53,
+    "image": "/pics/specimen-053.jpg",
+    "alt": "Large outlined letters on a painted surface",
+    "date": "2013-12-27",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-052",
+    "specimenNumber": 52,
+    "image": "/pics/specimen-052.jpg",
+    "date": "2013-12-07",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-051",
+    "specimenNumber": 51,
+    "image": "/pics/specimen-051.jpg",
+    "alt": "A chalkboard standing on the pavement",
+    "date": "2013-12-05",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-050",
+    "specimenNumber": 50,
+    "image": "/pics/specimen-050.jpg",
+    "alt": "Colorful hand-painted signs outside a shop",
+    "date": "2013-12-04",
+    "location": "Greater London",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-049",
+    "specimenNumber": 49,
+    "image": "/pics/specimen-049.jpg",
+    "date": "2013-11-07",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-048",
+    "specimenNumber": 48,
+    "image": "/pics/specimen-048.jpg",
+    "alt": "Raised pale letters on a wall",
+    "date": "2013-09-04",
+    "location": "San Francisco",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-047",
+    "specimenNumber": 47,
+    "image": "/pics/specimen-047.jpg",
+    "date": "2013-07-29",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-046",
+    "specimenNumber": 46,
+    "image": "/pics/specimen-046.jpg",
+    "alt": "White script lettering on a gray facade",
+    "date": "2013-04-18",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-045",
+    "specimenNumber": 45,
+    "image": "/pics/specimen-045.jpg",
+    "date": "2012-12-30",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-044",
+    "specimenNumber": 44,
+    "image": "/pics/specimen-044.jpg",
+    "alt": "Carved and painted lettering on a building corner",
+    "date": "2011-03-14"
+  },
+  {
+    "slug": "specimen-043",
+    "specimenNumber": 43,
+    "image": "/pics/specimen-043.jpg",
+    "alt": "Ornate raised lettering on a facade",
+    "date": "2011-03-14"
+  },
+  {
+    "slug": "specimen-042",
+    "specimenNumber": 42,
+    "image": "/pics/specimen-042.jpg",
+    "alt": "Lettering above an arched entrance",
+    "date": "2011-03-14"
+  },
+  {
+    "slug": "specimen-041",
+    "specimenNumber": 41,
+    "image": "/pics/specimen-041.jpg",
+    "date": "2011-03-13"
+  },
+  {
+    "slug": "specimen-040",
+    "specimenNumber": 40,
+    "image": "/pics/specimen-040.jpg",
+    "date": "2010-10-23"
+  },
+  {
+    "slug": "specimen-039",
+    "specimenNumber": 39,
+    "image": "/pics/specimen-039.jpg",
+    "alt": "Angular metal letters across a stone facade",
+    "date": "2010-10-23"
+  },
+  {
+    "slug": "specimen-038",
+    "specimenNumber": 38,
+    "image": "/pics/specimen-038.jpg",
+    "date": "2010-10-23"
+  },
+  {
+    "slug": "specimen-037",
+    "specimenNumber": 37,
+    "image": "/pics/specimen-037.jpg",
+    "date": "2009-11-18"
+  },
+  {
+    "slug": "specimen-036",
+    "specimenNumber": 36,
+    "image": "/pics/specimen-036.jpg",
+    "date": "2009-11-14"
+  },
+  {
+    "slug": "specimen-035",
+    "specimenNumber": 35,
+    "image": "/pics/specimen-035.jpg",
+    "date": "2009-11-14"
+  },
+  {
+    "slug": "specimen-034",
+    "specimenNumber": 34,
+    "image": "/pics/specimen-034.jpg",
+    "alt": "Rows of illuminated marquee letters",
+    "date": "2008-10-13"
+  },
+  {
+    "slug": "specimen-033",
+    "specimenNumber": 33,
+    "image": "/pics/specimen-033.jpg",
+    "date": "2008-10-05",
+    "location": "Dublin",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-032",
+    "specimenNumber": 32,
+    "image": "/pics/specimen-032.jpg",
+    "date": "2008-10-04",
+    "location": "Dublin",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-031",
+    "specimenNumber": 31,
+    "image": "/pics/specimen-031.jpg",
+    "alt": "White script on a projecting black sign",
+    "date": "2008-09-09",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-030",
+    "specimenNumber": 30,
+    "image": "/pics/specimen-030.jpg",
+    "alt": "Raised colored letters above a shopfront",
+    "date": "2008-09-09"
+  },
+  {
+    "slug": "specimen-029",
+    "specimenNumber": 29,
+    "image": "/pics/specimen-029.jpg",
+    "alt": "Lettering below decorative tiles",
+    "date": "2008-09-09",
+    "location": "Madrid",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-028",
+    "specimenNumber": 28,
+    "image": "/pics/specimen-028.jpg",
+    "alt": "Metal letters against a blue-gray facade",
+    "date": "2008-08-16"
+  },
+  {
+    "slug": "specimen-027",
+    "specimenNumber": 27,
+    "image": "/pics/specimen-027.jpg",
+    "alt": "Colorful neon lettering reflected on a wall",
+    "date": "2008-07-26"
+  },
+  {
+    "slug": "specimen-026",
+    "specimenNumber": 26,
+    "image": "/pics/specimen-026.jpg",
+    "alt": "Raised lettering on a textured wall",
+    "date": "2008-07-25"
+  },
+  {
+    "slug": "specimen-025",
+    "specimenNumber": 25,
+    "image": "/pics/specimen-025.jpg",
+    "alt": "White block letters on a weathered wall",
+    "date": "2008-07-05"
+  },
+  {
+    "slug": "specimen-024",
+    "specimenNumber": 24,
+    "image": "/pics/specimen-024.jpg",
+    "alt": "A bright orange price sign",
+    "date": "2008-07-05"
+  },
+  {
+    "slug": "specimen-023",
+    "specimenNumber": 23,
+    "image": "/pics/specimen-023.jpg",
+    "alt": "Stickers and lettering layered over a street sign",
+    "date": "2008-07-05"
+  },
+  {
+    "slug": "specimen-022",
+    "specimenNumber": 22,
+    "image": "/pics/specimen-022.jpg",
+    "alt": "White Spanish lettering on a dark shop sign",
+    "date": "2008-07-05"
+  },
+  {
+    "slug": "specimen-021",
+    "specimenNumber": 21,
+    "image": "/pics/specimen-021.jpg",
+    "alt": "Tall pale letters across a shop window",
+    "date": "2008-06-29"
+  },
+  {
+    "slug": "specimen-020",
+    "specimenNumber": 20,
+    "image": "/pics/specimen-020.jpg",
+    "alt": "Layered black and white lettering on a wall",
+    "date": "2008-06-29"
+  },
+  {
+    "slug": "specimen-019",
+    "specimenNumber": 19,
+    "image": "/pics/specimen-019.jpg",
+    "alt": "Raised letters and decorative lamps on a facade",
+    "date": "2008-06-28"
+  },
+  {
+    "slug": "specimen-018",
+    "specimenNumber": 18,
+    "image": "/pics/specimen-018.jpg",
+    "alt": "A lowercase g on a pale sign",
+    "date": "2008-06-28"
+  },
+  {
+    "slug": "specimen-017",
+    "specimenNumber": 17,
+    "image": "/pics/specimen-017.jpg",
+    "alt": "The number 47 on a dark door",
+    "date": "2008-06-28"
+  },
+  {
+    "slug": "specimen-016",
+    "specimenNumber": 16,
+    "image": "/pics/specimen-016.jpg",
+    "alt": "Script lettering above an arched doorway",
+    "date": "2008-06-27"
+  },
+  {
+    "slug": "specimen-015",
+    "specimenNumber": 15,
+    "image": "/pics/specimen-015.jpg",
+    "alt": "Painted lettering on a weathered blue sign",
+    "date": "2008-06-26"
+  },
+  {
+    "slug": "specimen-014",
+    "specimenNumber": 14,
+    "image": "/pics/specimen-014.jpg",
+    "date": "2008-06-26"
+  },
+  {
+    "slug": "specimen-013",
+    "specimenNumber": 13,
+    "image": "/pics/specimen-013.jpg",
+    "alt": "Colorful illuminated letters spelling sale",
+    "date": "2008-06-25"
+  },
+  {
+    "slug": "specimen-012",
+    "specimenNumber": 12,
+    "image": "/pics/specimen-012.jpg",
+    "alt": "Metal letters mounted on a dark wall",
+    "date": "2008-06-25"
+  },
+  {
+    "slug": "specimen-011",
+    "specimenNumber": 11,
+    "image": "/pics/specimen-011.jpg",
+    "alt": "Vertical illuminated lettering on a dark sign",
+    "date": "2008-06-25"
+  },
+  {
+    "slug": "specimen-010",
+    "specimenNumber": 10,
+    "image": "/pics/specimen-010.jpg",
+    "alt": "A small Abbey Road sign surrounded by writing",
+    "date": "2007-08-30"
+  },
+  {
+    "slug": "specimen-009",
+    "specimenNumber": 9,
+    "image": "/pics/specimen-009.jpg",
+    "date": "2007-08-24"
+  },
+  {
+    "slug": "specimen-008",
+    "specimenNumber": 8,
+    "image": "/pics/specimen-008.jpg",
+    "date": "2007-08-24"
+  },
+  {
+    "slug": "specimen-007",
+    "specimenNumber": 7,
+    "image": "/pics/specimen-007.jpg",
+    "date": "2007-08-20"
+  },
+  {
+    "slug": "specimen-006",
+    "specimenNumber": 6,
+    "image": "/pics/specimen-006.jpg",
+    "date": "2007-07-29"
+  },
+  {
+    "slug": "specimen-005",
+    "specimenNumber": 5,
+    "image": "/pics/specimen-005.jpg",
+    "alt": "Warm illuminated letters on a dark projecting sign",
+    "date": "2007-06-02"
+  },
+  {
+    "slug": "specimen-004",
+    "specimenNumber": 4,
+    "image": "/pics/specimen-004.jpg",
+    "date": "2006-11-13"
+  },
+  {
+    "slug": "specimen-003",
+    "specimenNumber": 3,
+    "image": "/pics/specimen-003.jpg",
+    "alt": "Rounded black letters on a white storefront",
+    "date": "2006-09-16"
+  },
+  {
+    "slug": "specimen-002",
+    "specimenNumber": 2,
+    "image": "/pics/specimen-002.jpg",
+    "date": "2006-08-10"
+  },
+  {
+    "slug": "specimen-001",
+    "specimenNumber": 1,
+    "image": "/pics/specimen-001.jpg",
+    "date": "2006-08-07"
+  }
+]

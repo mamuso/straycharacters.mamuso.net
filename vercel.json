@@ -1,0 +1,21 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "npx --yes pnpm@12.4.2 install --frozen-lockfile",
+  "buildCommand": "npx --yes pnpm@12.4.2 build",
+  "trailingSlash": true,
+  "headers": [
+    {
+      "source": "/generated/:file",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/journal/:version([a-f0-9]{16})/:page([0-9]+).json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

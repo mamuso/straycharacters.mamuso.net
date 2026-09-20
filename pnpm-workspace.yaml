@@ -1,0 +1,4 @@
+allowBuilds:
+  sharp: true
+minimumReleaseAgeExclude:
+  - '@types/node@24.13.6'

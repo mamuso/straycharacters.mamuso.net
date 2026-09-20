@@ -1,34 +1,40 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Dependencies and local pnpm store
+node_modules/
+.pnpm-store/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# next.js
+# Next.js output and generated type declarations
 /.next/
 /out/
+/next-env.d.ts
+*.tsbuildinfo
 
-# production
-/build
+# Generated image variants and gallery snapshots
+/.generated/
+/public/generated/
+/public/journal/
 
-# misc
-.DS_Store
+# Local archival photographs (never deployed or committed)
+/originals/
+
+# Photo import lock and temporary journal
+/content/.import-lock/
+/content/journal.json.tmp
+
+# Test output
+/coverage/
+/playwright-report/
+/test-results/
+
+# Local environment and deployment metadata
+.env*
+!.env.example
+!.env.*.example
+/.vercel/
 *.pem
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Logs and OS metadata
+*.log
+.DS_Store
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# vercel
-.vercel
+# Local reverse-geocoding cache
+/.cache/geocoding/
