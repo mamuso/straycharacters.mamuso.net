@@ -69,18 +69,6 @@ export default async function Find({
               {entry.location ? (
                 <span aria-label={`Location: ${entry.location}`}>
                   {entry.location}
-                  {entry.locationSource === "openstreetmap" ? (
-                    <>
-                      {" "}
-                      ·{" "}
-                      <a
-                        href="https://www.openstreetmap.org/copyright"
-                        {...stylex.props(s.link)}
-                      >
-                        © OpenStreetMap
-                      </a>
-                    </>
-                  ) : null}
                 </span>
               ) : null}
               {entry.date ? (
