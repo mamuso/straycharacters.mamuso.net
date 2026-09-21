@@ -3,6 +3,7 @@ export type Entry = {
   specimenNumber: number;
   image: string;
   src: string;
+  ogImage: string;
   width: number;
   height: number;
   title?: string;

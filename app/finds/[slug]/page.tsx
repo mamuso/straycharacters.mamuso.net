@@ -24,14 +24,22 @@ export async function generateMetadata({
   const { slug } = await params;
   const entry = entries.find((entry) => entry.slug === slug);
   if (!entry) return {};
+  const socialImage = {
+    url: entry.ogImage,
+    width: 1200,
+    height: 630,
+    alt: `${specimenLabel(entry)} — ${entry.alt || label(entry)}`,
+  };
   return {
     title: label(entry),
     description: entry.note || entry.alt,
     alternates: { canonical: `/finds/${slug}/` },
     openGraph: {
-      images: [
-        { url: `${entry.src}-1200.webp`, alt: entry.alt || label(entry) },
-      ],
+      images: [socialImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      images: [socialImage],
     },
   };
 }

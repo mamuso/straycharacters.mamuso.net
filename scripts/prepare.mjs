@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import sharp from "sharp";
 import { orderJournal } from "../lib/journal-order.mjs";
 import { validateEntries } from "./content.mjs";
+import { specimenCard } from "./og.mjs";
 const entries = validateEntries(
   JSON.parse(
     await readFile(new URL("../content/journal.json", import.meta.url), "utf8"),
@@ -23,6 +24,10 @@ for (const entry of orderJournal(entries)) {
     .slice(0, 16);
   const normalized = await sharp(input).rotate().toBuffer();
   const metadata = await sharp(normalized).metadata();
+  const card = await specimenCard(normalized, entry.specimenNumber);
+  const cardHash = createHash("sha256").update(card).digest("hex").slice(0, 16);
+  const ogImage = `/generated/og-${cardHash}.png`;
+  await writeFile(new URL(`public${ogImage}`, root), card);
   await Promise.all(
     [480, 800, 1200, 1600].map((width) =>
       sharp(normalized)
@@ -36,6 +41,7 @@ for (const entry of orderJournal(entries)) {
   output.push({
     ...entry,
     src: `/generated/${hash}`,
+    ogImage,
     width: metadata.width,
     height: metadata.height,
   });
