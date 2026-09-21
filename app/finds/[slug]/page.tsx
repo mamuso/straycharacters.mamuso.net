@@ -53,7 +53,7 @@ export default async function Find({
   const entry = entries[index];
   return (
     <article {...stylex.props(s.entry)}>
-      <header>
+      <header {...stylex.props(s.detailMetadata)}>
         <BackToCollection
           version={version}
           fallback={pageHref(

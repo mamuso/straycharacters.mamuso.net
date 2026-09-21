@@ -19,18 +19,17 @@ export default function BackToCollection({
     setSavedHref(readPosition(originKey(version))?.href || null);
   }, [version]);
   return (
-    <div {...stylex.props(s.entryBack, stylex.defaultMarker())}>
-      <span aria-hidden="true" {...stylex.props(s.entryBackHitArea)} />
+    <div {...stylex.props(s.entryBack)}>
       <Link
         href={savedHref || fallback}
         scroll={!savedHref}
         transitionTypes={["photo-close"]}
         aria-label="Back to the collection"
-        {...stylex.props(s.entryBackArrow)}
+        {...stylex.props(s.link, s.entryBackLink)}
       >
-        <span aria-hidden="true">←</span>
+        <span aria-hidden="true">←</span> Back to collection
       </Link>
-      <div {...stylex.props(s.entryHeader, s.entryBackContent)}>{children}</div>
+      <div {...stylex.props(s.entryHeader)}>{children}</div>
     </div>
   );
 }

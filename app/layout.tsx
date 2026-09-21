@@ -1,6 +1,6 @@
 import HistoryTransitions from "../components/HistoryTransitions";
 import type { Metadata } from "next";
-import Brand from "../components/Brand";
+import SiteFrame from "../components/SiteFrame";
 import Script from "next/script";
 import * as stylex from "@stylexjs/stylex";
 import { s } from "../styles/site";
@@ -26,23 +26,8 @@ export default function RootLayout({
         <a {...stylex.props(s.link, s.skip)} href="#back-to-reality">
           Skip to content
         </a>
-        <header {...stylex.props(s.header)}>
-          <Brand />
-        </header>
-        <main id="back-to-reality" {...stylex.props(s.main)}>
-          {children}
-        </main>
+        <SiteFrame>{children}</SiteFrame>
         <HistoryTransitions />
-        <footer id="about" {...stylex.props(s.footer)}>
-          <p {...stylex.props(s.footerCopy)}>
-            An ongoing exercise in paying attention.
-          </p>
-          <div {...stylex.props(s.footerLinks)}>
-            <a href="https://mamuso.dev" {...stylex.props(s.link)}>
-              Collected by Mamuso
-            </a>
-          </div>
-        </footer>
         <Script
           src="https://koala.mamuso.net/script.js"
           data-site="GKBFIQTA"
