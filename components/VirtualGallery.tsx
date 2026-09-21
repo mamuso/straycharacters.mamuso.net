@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useLayoutEffect, useMemo, useRef, useState } from "react";
+import { flushSync } from "react-dom";
 import * as stylex from "@stylexjs/stylex";
 import { galleryLayout, visibleRange } from "../lib/gallery-layout.mjs";
 import { label, type Entry } from "../lib/journal-types";
@@ -117,7 +118,9 @@ export default function VirtualGallery({
       if (!frame)
         frame = requestAnimationFrame(() => {
           frame = 0;
-          measure();
+          // A deferred commit can paint the old spacer at the new scroll position.
+          // Only range/geometry changes update state; commit those before paint.
+          flushSync(measure);
         });
     };
     window.addEventListener("scroll", schedule, { passive: true });
@@ -133,6 +136,7 @@ export default function VirtualGallery({
   }, [rows, restore]);
 
   function renderRow(entries: Entry[]) {
+    const totalRatio = entries.reduce((sum, item) => sum + item.width / item.height, 0);
     return (
       <div
         {...stylex.props(s.row)}
@@ -163,7 +167,10 @@ export default function VirtualGallery({
                   width={item.width}
                   height={item.height}
                   alt={item.alt || label(item)}
-                  sizes="(max-width: 600px) 100vw, 45vw"
+                  // Virtualization already bounds this window. Lazy-loading a
+                  // newly mounted visible image adds a second scheduling delay.
+                  loading={view ? "eager" : undefined}
+                  sizes={`(max-width: 600px) calc(100vw - 32px), calc((100vw - ${64 + (entries.length - 1) * 8}px) * ${item.width / item.height / totalRatio})`}
                   preload={
                     rows[0]?.indexOf(item) >= 0 && rows[0]?.indexOf(item) < 2
                   }
@@ -219,6 +226,7 @@ export default function VirtualGallery({
   return (
     <section
       ref={root}
+      {...stylex.props(s.gallery)}
       id="journal"
       aria-label="The collection"
       aria-busy={busy}

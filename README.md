@@ -14,6 +14,8 @@ Clicking a photo remembers the gallery URL, loaded blocks, scroll position and p
 
 Virtual row heights come from the original image aspect ratios and the gallery width, with spacers preserving the full scrollable height. Photos outside the window are unmounted; a focused row stays mounted for keyboard navigation. Metadata grows with visited blocks, while image DOM nodes stay bounded by the visible window. The desktop and mobile geometry is covered by tests using 10,000 photographs.
 
+Scroll-driven window changes commit before the next paint, and mounted virtual images load eagerly; the initial static HTML retains lazy loading. Native scroll anchoring is disabled inside the gallery so it cannot shift the viewport when virtual spacers change.
+
 `vercel.json` gives `/journal/<snapshot-hash>/*.json` the same immutable cache policy as hashed images (not the `/journal/2/` HTML pages). When an older tab requests a snapshot that is no longer available (404 or 410), the gallery keeps its loaded photographs and offers “Reload collection”, which performs a full navigation to the latest homepage. Other request failures retain the retry action.
 
 ## Styling
@@ -79,7 +81,11 @@ Before switching DNS, check the preview homepage, `/journal/2/`, a `/finds/<slug
 
 Other static hosts can still publish `out/` after `pnpm install --frozen-lockfile` and `pnpm build`, with equivalent cache headers configured at that host.
 
-Every build snapshots the journal and generates WebP variants at 480, 800, 1200 and 1600 pixels, without enlarging small originals. Image URLs include a hash of the source image, transformation revision and image encoder versions, so encoder upgrades invalidate previously cached variants. No Next.js image server is required. Generated files are ignored by Git and rebuilt from the committed sources. The deployed content changes only with another deployment.
+Every build snapshots the journal and generates WebP variants at 480, 800, 1200, 1600 and 2400 pixels, without enlarging small originals. Variants of 1200 pixels and above use WebP quality 88 for clearer enlarged views; smaller thumbnails retain quality 82. Image URLs include a hash of the source image, transformation revision and image encoder versions, so encoder upgrades invalidate previously cached variants. No Next.js image server is required. Generated files are ignored by Git and rebuilt from the committed sources. The deployed content changes only with another deployment.
+
+Image preparation reuses WebP variants and social cards from `.next/cache/photographs/`, which participates in Vercel's Next.js build cache. Each cache key includes the source image, specimen number, preparation and social-card code, brand artwork, lockfile and encoder versions. Titles, dates and other journal metadata are always read fresh. Missing or incomplete entries regenerate automatically; delete `.next/cache/photographs/` to force a full rebuild. The public output is still recreated from the current journal, so removed photographs do not remain in the exported collection. Other CI providers should persist `.next/cache/` between builds.
+
+Responsive image `sizes` follow each photograph's share of its gallery row, including gaps and gutters. Opened photographs fill the available page width, retaining their full aspect ratio; tall images extend below the viewport and can be scrolled. Detail image `sizes` account for the page gutters. Browsers select the appropriate existing WebP variant without changing image quality settings.
 
 Vercel applies one-year immutable caching to `/generated/*` and the hashed gallery JSON through `vercel.json`; Next.js manages `/_next/static/*`. Other files retain the platform's default browser revalidation policy (`Cache-Control: public, max-age=0, must-revalidate`), so new deployments become visible. Original `/pics/*` URLs remain available for compatibility and are not marked immutable because a file may be replaced at the same path.
 

@@ -93,9 +93,9 @@ export default async function Find({
           width={entry.width}
           height={entry.height}
           alt={entry.alt || label(entry)}
-          sizes="100vw"
+          sizes="(max-width: 600px) calc(100vw - 32px), calc(100vw - 64px)"
           preload
-          {...stylex.props(s.entryImage(entry.width / entry.height))}
+          {...stylex.props(s.entryImage)}
         />
       </PhotoTransition>
       <PhotoNavigation

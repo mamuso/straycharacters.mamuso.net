@@ -143,6 +143,10 @@ export const s = stylex.create({
     },
     outlineOffset: 4,
   },
+  gallery: {
+    // Virtual spacers preserve position; native anchoring must not move it again.
+    overflowAnchor: "none",
+  },
   row: {
     display: { default: "flex", "@media (max-width: 600px)": "block" },
     gap: 8,
@@ -170,13 +174,13 @@ export const s = stylex.create({
     gap: 32,
   },
   spacer: (height: number) => ({ height, pointerEvents: "none" }),
-  entryImage: (ratio: number) => ({
+  entryImage: {
     display: "block",
-    width: `min(100%, ${ratio * 78}dvh)`,
+    width: "100%",
     height: "auto",
     marginInline: "auto",
     borderRadius: 2,
-  }),
+  },
   entryHeader: {
     display: "flex",
     alignItems: "baseline",
