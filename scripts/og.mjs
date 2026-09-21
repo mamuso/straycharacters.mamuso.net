@@ -10,7 +10,7 @@ const brand = `data:image/png;base64,${(await readFile(
 // Build-time rendering keeps social cards compatible with the static export.
 export async function specimenCard(image, specimenNumber) {
   const photo = await sharp(image)
-    .resize(680, 680, { fit: "cover", position: "centre" })
+    .resize(1140, 1020, { fit: "cover", position: "centre" })
     .png()
     .toBuffer();
   const response = new ImageResponse(
@@ -38,9 +38,9 @@ export async function specimenCard(image, specimenNumber) {
     }, `Specimen No. ${String(specimenNumber).padStart(3, "0")}`),
     h("img", {
       src: `data:image/png;base64,${photo.toString("base64")}`,
-      width: 340, height: 340,
+      width: 570, height: 510,
       style: {
-        position: "absolute", left: 60, top: 230,
+        position: "absolute", left: 570, top: 60,
         boxShadow: "0 6px 16px rgba(0, 0, 0, 0.25)",
       },
     })),
