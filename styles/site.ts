@@ -188,6 +188,12 @@ export const s = stylex.create({
     minHeight: "100dvh",
   },
   detailBrand: {
+    position: { default: "static", "@media (min-width: 901px)": "fixed" },
+    top: 0,
+    left: 0,
+    width: { default: "auto", "@media (min-width: 901px)": 320 },
+    zIndex: 1,
+    backgroundColor: tokens.paper,
     gridColumn: 1,
     gridRow: 1,
     marginInline: 0,
@@ -198,6 +204,15 @@ export const s = stylex.create({
     display: { default: "block", "@media (min-width: 901px)": "contents" },
   },
   detailMetadata: {
+    position: { default: "static", "@media (min-width: 901px)": "fixed" },
+    // The brand occupies 28px of line height plus 32px padding on each side.
+    top: 92,
+    left: 0,
+    width: { default: "auto", "@media (min-width: 901px)": 320 },
+    maxHeight: { default: "none", "@media (min-width: 901px)": "calc(100dvh - 92px)" },
+    overflowY: { default: "visible", "@media (min-width: 901px)": "auto" },
+    zIndex: 1,
+    backgroundColor: tokens.paper,
     gridColumn: 1,
     gridRow: 2,
     minWidth: 0,
