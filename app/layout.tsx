@@ -1,4 +1,5 @@
 import HistoryTransitions from "../components/HistoryTransitions";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import SiteFrame from "../components/SiteFrame";
 import Script from "next/script";
@@ -28,6 +29,7 @@ export default function RootLayout({
         </a>
         <SiteFrame>{children}</SiteFrame>
         <HistoryTransitions />
+        <Analytics />
         <Script
           src="https://koala.mamuso.net/script.js"
           data-site="GKBFIQTA"
