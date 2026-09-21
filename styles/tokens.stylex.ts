@@ -14,5 +14,5 @@ export const tokens = stylex.defineVars({
     default: "180ms",
     "@media (prefers-reduced-motion: reduce)": "0s",
   },
-  gutter: { default: "32px", "@media (max-width: 600px)": "16px" },
+  gutter: { default: "32px", "@media (max-width: 900px)": "16px" },
 });

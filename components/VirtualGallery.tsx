@@ -2,18 +2,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useLayoutEffect, useMemo, useRef, useState } from "react";
-import { flushSync } from "react-dom";
+import { startTransition, useLayoutEffect, useMemo, useRef, useState } from "react";
 import * as stylex from "@stylexjs/stylex";
 import { galleryLayout, visibleRange } from "../lib/gallery-layout.mjs";
 import { label, type Entry } from "../lib/journal-types";
+import { prepareDetailImage } from "../lib/detail-image";
 import type { GalleryPosition } from "../lib/gallery-session";
 import PhotoTransition from "./PhotoTransition";
 import { s } from "../styles/site";
 
 type Viewport = { width: number; mobile: boolean; top: number; height: number };
 function viewport(scrollY: number, galleryTop: number): Viewport {
-  const mobile = window.innerWidth <= 600;
+  const mobile = window.innerWidth <= 900;
   return {
     width: document.documentElement.clientWidth - (mobile ? 32 : 64),
     mobile,
@@ -36,6 +36,8 @@ export default function VirtualGallery({
   const router = useRouter();
   const root = useRef<HTMLElement>(null);
   const restored = useRef(false);
+  const navigationAttempt = useRef(0);
+  useLayoutEffect(() => () => { navigationAttempt.current++; }, []);
   const [focused, setFocused] = useState<string | null>(null);
   const [view, setView] = useState<Viewport | null>(() => {
     if (typeof window === "undefined" || restore?.galleryTop === undefined)
@@ -98,7 +100,7 @@ export default function VirtualGallery({
         const geometry = galleryLayout(
           rows,
           element.clientWidth,
-          window.innerWidth <= 600,
+          window.innerWidth <= 900,
         );
         const row = geometry.find((row) =>
           row.entries.some((entry) => entry.slug === restore.anchor),
@@ -118,9 +120,9 @@ export default function VirtualGallery({
       if (!frame)
         frame = requestAnimationFrame(() => {
           frame = 0;
-          // A deferred commit can paint the old spacer at the new scroll position.
-          // Only range/geometry changes update state; commit those before paint.
-          flushSync(measure);
+          // Synchronous commits cancel an in-flight shared photo transition.
+          // Keep window updates coordinated with React navigation transitions.
+          startTransition(measure);
         });
     };
     window.addEventListener("scroll", schedule, { passive: true });
@@ -134,6 +136,32 @@ export default function VirtualGallery({
       window.removeEventListener("resize", schedule);
     };
   }, [rows, restore]);
+
+  function prepare(item: Entry) {
+    router.prefetch(`/finds/${item.slug}/`);
+    void prepareDetailImage({ ...item, alt: item.alt || label(item) }).catch(() => {});
+  }
+
+  async function openPhoto(event: { preventDefault: () => void }, item: Entry) {
+    event.preventDefault();
+    const attempt = ++navigationAttempt.current;
+    const pathname = window.location.pathname;
+    setFocused(item.slug);
+    let timeout: ReturnType<typeof setTimeout> | undefined;
+    try {
+      await Promise.race([
+        prepareDetailImage({ ...item, alt: item.alt || label(item) }),
+        new Promise<void>((resolve) => { timeout = setTimeout(resolve, 2000); }),
+      ]);
+    } catch {
+      // Image failure must not prevent opening the page or retrying its image.
+    } finally {
+      clearTimeout(timeout);
+    }
+    if (attempt !== navigationAttempt.current || window.location.pathname !== pathname) return;
+    remember(item.slug);
+    router.push(`/finds/${item.slug}/`, { transitionTypes: ["photo-open"] });
+  }
 
   function renderRow(entries: Entry[]) {
     const totalRatio = entries.reduce((sum, item) => sum + item.width / item.height, 0);
@@ -154,11 +182,11 @@ export default function VirtualGallery({
               transitionTypes={["photo-open"]}
               {...stylex.props(s.link, s.photoLink)}
               aria-label={`View ${label(item)}`}
-              onNavigate={() => remember(item.slug)}
-              onMouseEnter={() => router.prefetch(`/finds/${item.slug}/`)}
+              onNavigate={(event) => { void openPhoto(event, item); }}
+              onMouseEnter={() => prepare(item)}
               onFocus={() => {
                 setFocused(item.slug);
-                router.prefetch(`/finds/${item.slug}/`);
+                prepare(item);
               }}
             >
               <PhotoTransition slug={item.slug}>
@@ -170,7 +198,7 @@ export default function VirtualGallery({
                   // Virtualization already bounds this window. Lazy-loading a
                   // newly mounted visible image adds a second scheduling delay.
                   loading={view ? "eager" : undefined}
-                  sizes={`(max-width: 600px) calc(100vw - 32px), calc((100vw - ${64 + (entries.length - 1) * 8}px) * ${item.width / item.height / totalRatio})`}
+                  sizes={`(max-width: 900px) calc(100vw - 32px), calc((100vw - ${64 + (entries.length - 1) * 8}px) * ${item.width / item.height / totalRatio})`}
                   preload={
                     rows[0]?.indexOf(item) >= 0 && rows[0]?.indexOf(item) < 2
                   }
