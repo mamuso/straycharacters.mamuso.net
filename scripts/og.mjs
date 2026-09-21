@@ -9,8 +9,12 @@ const brand = `data:image/png;base64,${(await readFile(
 
 // Build-time rendering keeps social cards compatible with the static export.
 export async function specimenCard(image, specimenNumber) {
+  const { width, height } = await sharp(image).metadata();
   const photo = await sharp(image)
-    .resize(1140, 1020, { fit: "cover", position: "centre" })
+    .resize(1140, 1020, {
+      fit: "cover",
+      position: height > width ? "north" : "centre",
+    })
     .png()
     .toBuffer();
   const response = new ImageResponse(
