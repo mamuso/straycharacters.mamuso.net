@@ -16,18 +16,18 @@ export default function SiteFrame({ children }: { children: ReactNode }) {
       <main id="back-to-reality" {...stylex.props(s.main, detail && s.detailMain)}>
         {children}
       </main>
-      <footer id="about" {...stylex.props(s.footer, detail && s.detailFooter)}>
-        <p {...stylex.props(s.footerCopy, detail && s.detailFooterCopy)}>
-          An ongoing exercise in paying attention.
-        </p>
-        {!detail ? (
+      {!detail ? (
+        <footer id="about" {...stylex.props(s.footer)}>
+          <p {...stylex.props(s.footerCopy)}>
+            An ongoing exercise in paying attention.
+          </p>
           <div {...stylex.props(s.footerLinks)}>
             <a href="https://mamuso.dev" {...stylex.props(s.link)}>
               Collected by Mamuso
             </a>
           </div>
-        ) : null}
-      </footer>
+        </footer>
+      ) : null}
     </div>
   );
 }

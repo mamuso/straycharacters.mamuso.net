@@ -203,15 +203,6 @@ export const s = stylex.create({
     minWidth: 0,
     padding: { default: 0, "@media (min-width: 901px)": "32px" },
   },
-  detailFooter: {
-    gridColumn: 1,
-    gridRow: 3,
-    marginInline: 0,
-    marginTop: 0,
-    paddingInline: tokens.gutter,
-    borderTopWidth: 0,
-  },
-  detailFooterCopy: { color: "#666666" },
   expandablePhoto: {
     gridColumn: 2,
     gridRow: "1 / 4",
