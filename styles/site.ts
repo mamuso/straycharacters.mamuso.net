@@ -181,6 +181,19 @@ export const s = stylex.create({
     marginInline: "auto",
     borderRadius: 2,
   },
+  entryImageFitted: (ratio: number) => ({
+    width: `min(100%, ${ratio * 78}dvh)`,
+  }),
+  expandablePhoto: {
+    display: "flex",
+    flexDirection: "column",
+    gap: 16,
+    overflowAnchor: "none",
+  },
+  expandPhotoButton: {
+    alignSelf: "center",
+    color: { default: tokens.muted, ":hover": tokens.accent },
+  },
   entryHeader: {
     display: "flex",
     alignItems: "baseline",

@@ -1,12 +1,11 @@
 import BackToCollection from "../../../components/BackToCollection";
 import { blocks, version } from "../../../lib/blocks";
 import { pageHref } from "../../../lib/pagination.mjs";
-import PhotoTransition from "../../../components/PhotoTransition";
+import ExpandablePhoto from "../../../components/ExpandablePhoto";
 import PhotoNavigation from "../../../components/PhotoNavigation";
 import * as stylex from "@stylexjs/stylex";
 import { s } from "../../../styles/site";
 import type { Metadata } from "next";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { entries, label, dateLabel, specimenLabel } from "../../../lib/journal";
 export function generateStaticParams() {
@@ -86,18 +85,14 @@ export default async function Find({
           ) : null}
         </BackToCollection>
       </header>
-      <PhotoTransition slug={entry.slug}>
-        <Image
-          key={entry.slug}
-          src={entry.src}
-          width={entry.width}
-          height={entry.height}
-          alt={entry.alt || label(entry)}
-          sizes="(max-width: 600px) calc(100vw - 32px), calc(100vw - 64px)"
-          preload
-          {...stylex.props(s.entryImage)}
-        />
-      </PhotoTransition>
+      <ExpandablePhoto
+        key={entry.slug}
+        slug={entry.slug}
+        src={entry.src}
+        width={entry.width}
+        height={entry.height}
+        alt={entry.alt || label(entry)}
+      />
       <PhotoNavigation
         previous={
           entries[index - 1] ? `/finds/${entries[index - 1].slug}/` : undefined
