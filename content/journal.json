@@ -1,5 +1,14 @@
 [
   {
+    "slug": "specimen-230",
+    "specimenNumber": 230,
+    "image": "/pics/specimen-230.jpg",
+    "title": "Hungry?",
+    "alt": "Red neon sign reading BAR and FOOD UNTIL 1AM glowing behind a wired-glass window above a weathered dark wooden door",
+    "location": "New York",
+    "date": "2026-09-18"
+  },
+  {
     "slug": "specimen-229",
     "specimenNumber": 229,
     "image": "/pics/specimen-229.jpg",
