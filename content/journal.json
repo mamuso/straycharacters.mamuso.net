@@ -1,5 +1,32 @@
 [
   {
+    "slug": "specimen-233",
+    "specimenNumber": 233,
+    "image": "/pics/specimen-233.jpg",
+    "title": "LetterSet",
+    "alt": "Rack of small white sailboat hulls stacked on a metal frame, each with a stenciled registration number like CF 0266 KT and CF 5082 SJ, under a cloudy sky with trees behind",
+    "location": "West Sacramento",
+    "date": "2026-10-04"
+  },
+  {
+    "slug": "specimen-232",
+    "specimenNumber": 232,
+    "image": "/pics/specimen-232.jpg",
+    "title": "Row D",
+    "alt": "Weathered white wooden block stenciled ROW D with a red and navy pennant, lying on gravel in front of covered sailboats on trailers in a sunny boat yard",
+    "location": "West Sacramento",
+    "date": "2026-10-04"
+  },
+  {
+    "slug": "specimen-231",
+    "specimenNumber": 231,
+    "image": "/pics/specimen-231.jpg",
+    "title": "Mobile mechanic",
+    "alt": "Paper flyer stapled to a weathered wooden utility pole advertising MOBILE MECHANIC, I COME TO YOU, servicing the Oakland area, with tear-off tabs along the bottom and a blurred street and tall pines at dusk behind",
+    "location": "Oakland",
+    "date": "2026-09-26"
+  },
+  {
     "slug": "specimen-230",
     "specimenNumber": 230,
     "image": "/pics/specimen-230.jpg",
