@@ -1,5 +1,25 @@
 [
   {
+    "slug": "specimen-235",
+    "specimenNumber": 235,
+    "image": "/pics/specimen-235.jpg",
+    "title": "San",
+    "alt": "Dimensional block letters S, A, N mounted on a pale gray building facade below a window reflecting trees, with the S lit warm cream",
+    "date": "2026-10-10",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-234",
+    "specimenNumber": 234,
+    "image": "/pics/specimen-234.jpg",
+    "title": "Look",
+    "alt": "Hand-painted black script spelling LOOK on a cream lightbox sign hanging from a building awning against a pale sky",
+    "date": "2026-10-10",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
     "slug": "specimen-233",
     "specimenNumber": 233,
     "image": "/pics/specimen-233.jpg",
