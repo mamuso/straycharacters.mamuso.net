@@ -1,5 +1,35 @@
 [
   {
+    "slug": "specimen-238",
+    "specimenNumber": 238,
+    "image": "/pics/specimen-238.jpg",
+    "title": "All Power to the People",
+    "alt": "Wheatpasted posters for the Black Panther Party 60th anniversary on a gray wall: ALL POWER TO THE PEOPLE with a raised-fist figure, a black panther, two women holding People's Free Food Program bags, and October 15-18, 2026, Oakland, CA in white on blue",
+    "date": "2026-10-17",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-237",
+    "specimenNumber": 237,
+    "image": "/pics/specimen-237.jpg",
+    "title": "426",
+    "alt": "Green stenciled numbers 4, 2, 6 stacked vertically on a peeling white-painted wooden post between a gray roll-up door and a tan brick wall",
+    "date": "2026-10-17",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
+    "slug": "specimen-236",
+    "specimenNumber": 236,
+    "image": "/pics/specimen-236.jpg",
+    "title": "There There",
+    "alt": "Red spray-painted words THERE THERE on a torn piece of cardboard tacked to a black wooden wall above brushed metal house numbers 468",
+    "date": "2026-10-17",
+    "location": "Oakland",
+    "locationSource": "openstreetmap"
+  },
+  {
     "slug": "specimen-235",
     "specimenNumber": 235,
     "image": "/pics/specimen-235.jpg",
