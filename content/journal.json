@@ -1,5 +1,29 @@
 [
   {
+    "slug": "specimen-243",
+    "specimenNumber": 243,
+    "image": "/pics/specimen-243.jpg",
+    "title": "Okkon",
+    "alt": "Hand-painted sandwich board reading OKKON and @OKKONPOPUP, with an okonomiyaki on a red gingham pattern, half in sunlight on asphalt",
+    "date": "2026-11-07"
+  },
+  {
+    "slug": "specimen-242",
+    "specimenNumber": 242,
+    "image": "/pics/specimen-242.jpg",
+    "title": "Records",
+    "alt": "Wooden sandwich-board sign with RECORDS painted vertically in white letters, outside an open shop door",
+    "date": "2026-11-07"
+  },
+  {
+    "slug": "specimen-241",
+    "specimenNumber": 241,
+    "image": "/pics/specimen-241.jpg",
+    "title": "Stop Wars",
+    "alt": "White stenciled STOP WARS on a red-painted curb, with fallen red and brown leaves on the sidewalk",
+    "date": "2026-11-07"
+  },
+  {
     "slug": "specimen-240",
     "specimenNumber": 240,
     "image": "/pics/specimen-240.jpg",
